@@ -5,7 +5,7 @@ import tkinter as tk
 if __name__ == "__main__":
     window =  tk.Tk()
     display = display(tk,window)
-    display.setup_home(router(tk,window))
+    display.setup_home(router(display))
     display.window.mainloop()
 
 

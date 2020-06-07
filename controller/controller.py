@@ -1,14 +1,13 @@
 class router:
-    def __init__(self,tk,window):
-        self.tk = tk
-        self.window = window
+    def __init__(self,display):
+        self.display= display
 
     def navigate_setting(self):
-        tk = self.tk
-        window = self.window
+        home_frame = self.display.tree['children']['home_frame']
+        
+        
         
     def navigate_gen(self):
-        tk = self.tk
-        window = self.window
+        print("test")
         
     
